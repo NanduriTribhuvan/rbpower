@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RB Power</title>
+
+    <!-- Main Styles -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- -------------------- Header -------------------- -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#home">RB <span>POWER</span></a>
+            </div>
+
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="./products.html">Products</a></li>
+                <li><a href="#values">Our Values</a></li>
+                <li><a href="#associates">Associates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- -------------------- Hero -------------------- -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>
+                <span class="sub-heading">Innovating Power Solutions</span>
+                <span class="main-heading">RB POWER</span>
+            </h1>
+        </div>
+    </section>
+
+    <!-- -------------------- Products -------------------- -->
+    <section id="products" class="products">
+        <h2 class="section-title">Our Sales & Services</h2>
+
+        <div class="product-carousel">
+            <div class="product-grid" id="productGrid">
+                <div class="product-card">
+                    <i class="fa fa-bolt product-icon"></i>
+                    <h3>Inverters</h3>
+                    <p>High-efficiency inverters for reliable power backup.</p>
+                </div>
+                <div class="product-card">
+                    <i class="fa fa-car-battery product-icon"></i>
+                    <h3>Batteries</h3>
+                    <p>Durable and long-lasting battery solutions.</p>
+                </div>
+                <div class="product-card">
+                    <i class="fa fa-solar-panel product-icon"></i>
+                    <h3>Solar Systems</h3>
+                    <p>Eco-friendly solar power systems for homes & offices.</p>
+                </div>
+                <div class="product-card">
+                    <i class="fa fa-home product-icon"></i>
+                    <h3>Home UPS</h3>
+                    <p>Reliable Home UPS systems for uninterrupted power supply.</p>
+                </div>
+                <div class="product-card">
+                    <i class="fa fa-plug product-icon"></i>
+                    <h3>UPS (Online & Offline)</h3>
+                    <p>Efficient Online & Offline UPS solutions for all needs.</p>
+                </div>
+                <div class="product-card">
+                    <i class="fa fa-charging-station product-icon"></i>
+                    <h3>Stabilisers</h3>
+                    <p>Voltage stabilisers for protecting your valuable devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------- Founder Section -------------------- -->
+    <section id="founder" class="founder">
+        <div class="founder-wrapper fade-up">
+            <div class="founder-image">
+                <div class="founder-slider">
+                    <img src="images/founder-main.jpeg" class="founder-slide active"
+                        alt="Rajala Brahma Reddy – Founder of RB Power Centre">
+                    <img src="images/founder-award1.jpeg" class="founder-slide" alt="Award recognition 1">
+                    <img src="images/founder-award2.jpeg" class="founder-slide" alt="Award recognition 2">
+                    <img src="images/founder-award3.jpeg" class="founder-slide" alt="Award recognition 3">
+                </div>
+            </div>
+
+
+            <div class="founder-content">
+                <h2>Meet The Founder</h2>
+                <h3 class="founder-name">Rajala ‎Brahma ‎Reddy</h3>
+
+                <p class="founder-desc">
+                    Rajala Brahma Reddy is the visionary founder of RB Power Centre — a company built on commitment,
+                    resilience,
+                    and a passion for delivering dependable power and energy solutions. With an unshakable belief in
+                    hard work, integrity,
+                    and service excellence, he has guided RB Power Centre to become one of the most trusted names in the
+                    power solutions industry.
+                </p>
+
+                <p class="founder-desc">
+                    His leadership is driven by perseverance and a customer-first mindset — values that he continues to
+                    instill across the organization.
+                    Under his guidance, RB Power Centre continues to grow and innovate, offering high-quality inverters,
+                    UPS systems, solar solutions,
+                    batteries, and stabilisers that meet the evolving needs of homes, offices, and industries.
+                </p>
+
+                <div class="founder-meta">
+                    <div class="founder-highlights">
+                        <div class="highlight">
+                            <i class="fa fa-building"></i>
+                            <span>Founder & Industry Leader</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fa fa-bolt"></i>
+                            <span>Power Solutions Visionary</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fa fa-handshake"></i>
+                            <span>Customer-Centric Leadership</span>
+                        </div>
+                        <div class="highlight">
+                            <i class="fa fa-phone"></i>
+                            <a href="tel:+919989697481">+91 9989697481</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -------------------- Values -------------------- -->
+    <section id="values" class="values">
+        <h2 class="section-title">The Values that we live by</h2>
+        <div class="values-grid">
+            <div class="value-card fade-up">
+                <h3 class="value-title">Innovation</h3>
+                <p>We are proactively striving for better ways of doing things, leading to newer possibilities for the
+                    whole world.</p>
+            </div>
+            <div class="value-card fade-up">
+                <h3 class="value-title">Excellence</h3>
+                <p>We are continually enhancing our performance to consistently produce outstanding results with lasting
+                    impact.</p>
+            </div>
+            <div class="value-card fade-up">
+                <h3 class="value-title">Entrepreneurship</h3>
+                <p>We are leading our business with conviction to discover new opportunities, and we contribute to build
+                    a better community.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------- Associates -------------------- -->
+    <section id="associates" class="associates">
+        <h2 class="section-title">Our Associates</h2>
+        <div class="associates-grid">
+            <div class="associate-card"><img src="images/quanta.png" alt="Quanta"></div>
+            <div class="associate-card"><img src="images/surya.jpg" alt="Surya"></div>
+            <div class="associate-card"><img src="images/exide.jpg" alt="Exide"></div>
+            <div class="associate-card"><img src="images/Rocket.jpeg" alt="Rocket"></div>
+            <div class="associate-card"><img src="images/hbl.jpeg" alt="HBL"></div>
+            <div class="associate-card"><img src="images/amaron.jpg" alt="Amaron"></div>
+            <div class="associate-card"><img src="images/bpe.jpg" alt="BPE"></div>
+            <div class="associate-card"><img src="images/microtek.jpeg" alt="Microtek"></div>
+            <div class="associate-card"><img src="images/eaton.jpeg" alt="Eaton"></div>
+            <div class="associate-card"><img class="fuji" src="images/fuji.jpeg" alt="Fuji"></div>
+            <div class="associate-card"><img src="images/apc.jpeg" alt="APC"></div>
+            <div class="associate-card"><img src="images/numeric.jpeg" alt="Numeric"></div>
+        </div>
+    </section>
+
+    <!-- -------------------- Contact -------------------- -->
+    <!-- Google Map Section -->
+    <div class="map-wrapper fade-up">
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.8081776941073!2d78.52370817516286!3d17.43606798345247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99357f9dcf37%3A0x78cfadf0a6379f6a!2sRB%20Power%20Systems!5e0!3m2!1sen!2sin!4v1726406400000!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <!-- Pulsing marker -->
+            <div class="map-marker"></div>
+        </div>
+    </div>
+
+    <section id="contact" class="contact">
+        <div class="contact-card fade-in">
+            <h2>Let's Talk</h2>
+            <p>Got a project or idea? We'd love to hear from you.</p>
+            <div class="contact-info">
+                <p><i class="fa fa-envelope"></i> <a href="mailto:rbpowercentre@gmail.com">rbpowercentre@gmail.com</a>
+                </p>
+                <p><i class="fa fa-phone"></i> <a href="tel:+919989697481">+91 99896 97481</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------- Footer -------------------- -->
+    <footer>
+        <p>© 2025 RB Power Systems. All rights reserved.</p>
+    </footer>
+
+    <!-- -------------------- Floating Buttons -------------------- -->
+    <div class="action-buttons">
+        <a href="https://wa.me/919989697481" target="_blank" class="btn-action whatsapp">
+            <i class="fab fa-whatsapp"></i> WhatsApp Us
+        </a>
+        <a href="tel:+919989697481" class="btn-action call">
+            <i class="fa fa-phone"></i> Call Now
+        </a>
+    </div>
+
+    <!-- External Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
